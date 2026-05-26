@@ -11,7 +11,7 @@ class DecisionNode(Node):
         self.cmd_pub = self.create_publisher(Twist, '/cmd_vel', 10)
 
         self.create_subscription(Int32, '/line_pos', self.line_cb, 10)
-        self.create_subscription(Bool, '/obstacle', self.obstacle_cb, 10)
+        self.create_subscription(Bool, '/obstacle_detected', self.obstacle_cb, 10)
 
         self.line_pos = 99
         self.obstacle = False
