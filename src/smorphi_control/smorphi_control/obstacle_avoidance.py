@@ -13,7 +13,7 @@ class ObstacleAvoidance(Node):
             self.scan_callback,
             10
         )
-        self.pub = self.create_publisher(Twist, '/cmd_vel', 10)
+        self.pub = self.create_publisher(Twist, '/obstacle_cmd', 10)
 
     def scan_callback(self, msg):
         cmd = Twist()
@@ -24,13 +24,13 @@ class ObstacleAvoidance(Node):
 ]
         distance = min(valid_ranges) if valid_ranges else float('inf')
 
-        if distance > 0.25:
+        if distance > 0.35:
             cmd.linear.x = 0.1
             cmd.angular.z = 0.0
             self.get_logger().info('AMAN: maju')
         else:
             cmd.linear.x = 0.0
-            cmd.angular.z = 0.5
+            cmd.angular.z = 0.7
             self.get_logger().info(f'OBSTACLE {distance:.2f} m: belok')
 
         self.pub.publish(cmd)

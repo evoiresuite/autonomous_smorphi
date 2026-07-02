@@ -16,10 +16,10 @@ def generate_launch_description():
                 'ros2', 'run', 'ros_gz_sim', 'create',
                 '-file', urdf_file,
                 '-name', 'smorphi',
-                '-x', '-0.0005',
-                '-y', '3.5',
+                '-x', '3.8000',
+                '-y', '0.9000',
                 '-z', '0.02',
-                '-Y', '-1.5708'
+                '-Y', '0'
             ],
             output='screen'
         )

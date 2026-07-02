@@ -1,4 +1,3 @@
-
 <?xml version="1.0"?>
 
 <robot name="smorphi">
@@ -277,7 +276,7 @@
 <joint name="obstacle_sensor_joint" type="fixed">
   <parent link="base_link"/>
   <child link="obstacle_sensor_link"/>
-  <origin xyz="0.11 0 0.10" rpy="0 0 0"/>
+  <origin xyz="0.10 0 0.05" rpy="0 0 0"/>
 </joint>
 
     <gazebo reference="obstacle_sensor_link">
@@ -311,28 +310,11 @@
 
   <visual>
     <geometry>
-      <box size="0.04 0.02 0.02"/>
+      <box size="0.02 0.02 0.02"/>
     </geometry>
 
-    <material>
-      <ambient>0 1 0 1</ambient>
-      <diffuse>0 1 0 1</diffuse>
-    </material>
-  </visual>
-
-</link>
-
-<!-- CENTER SENSOR -->
-<link name="line_center_link">
-
-  <visual>
-    <geometry>
-      <box size="0.04 0.02 0.02"/>
-    </geometry>
-
-    <material>
-      <ambient>0 1 0 1</ambient>
-      <diffuse>0 1 0 1</diffuse>
+    <material name="green">
+      <color rgba="0 1 0 1"/>
     </material>
   </visual>
 
@@ -343,12 +325,11 @@
 
   <visual>
     <geometry>
-      <box size="0.04 0.02 0.02"/>
+      <box size="0.02 0.02 0.02"/>
     </geometry>
 
-    <material>
-      <ambient>0 1 0 1</ambient>
-      <diffuse>0 1 0 1</diffuse>
+    <material name="green">
+      <color rgba="0 1 0 1"/>
     </material>
   </visual>
 
@@ -359,20 +340,35 @@
 <joint name="line_left_joint" type="fixed">
   <parent link="base_link"/>
   <child link="line_left_link"/>
-  <origin xyz="0.08 -0.015 0.02" rpy="0 -1.5708 0"/>
-</joint>
-
-<joint name="line_center_joint" type="fixed">
-  <parent link="base_link"/>
-  <child link="line_center_link"/>
-  <origin xyz="0.08 0 0.02" rpy="0 -1.5708 0"/>
+  <origin xyz="0.08 -0.06 0.025" rpy="0 1.5708 0"/>
 </joint>
 
 <joint name="line_right_joint" type="fixed">
   <parent link="base_link"/>
   <child link="line_right_link"/>
-  <origin xyz="0.08 0.015 0.02" rpy="0 -1.5708 0"/>
+  <origin xyz="0.08 0.06 0.025" rpy="0 1.5708 0"/>
 </joint>
+
+<!-- Fallback: pastikan warna juga terlihat di gz-sim lewat override material Gazebo -->
+<gazebo reference="line_left_link">
+  <visual>
+    <material>
+      <ambient>0 1 0 1</ambient>
+      <diffuse>0 1 0 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+    </material>
+  </visual>
+</gazebo>
+
+<gazebo reference="line_right_link">
+  <visual>
+    <material>
+      <ambient>0 1 0 1</ambient>
+      <diffuse>0 1 0 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+    </material>
+  </visual>
+</gazebo>
 
 <!-- LEFT SENSOR -->
 
@@ -406,37 +402,6 @@
   </sensor>
 </gazebo>
 
-<!-- CENTER SENSOR -->
-
-<gazebo reference="line_center_link">
-  <sensor name="line_center_sensor" type="gpu_lidar">
-
-    <topic>/line_center_scan</topic>
-
-    <update_rate>20</update_rate>
-
-    <ray>
-      <scan>
-        <horizontal>
-          <samples>1</samples>
-          <resolution>1</resolution>
-          <min_angle>0</min_angle>
-          <max_angle>0</max_angle>
-        </horizontal>
-      </scan>
-
-      <range>
-        <min>0.01</min>
-        <max>0.20</max>
-        <resolution>0.001</resolution>
-      </range>
-    </ray>
-
-    <always_on>1</always_on>
-    <visualize>true</visualize>
-
-  </sensor>
-</gazebo>
 
 <!-- RIGHT SENSOR -->
 
