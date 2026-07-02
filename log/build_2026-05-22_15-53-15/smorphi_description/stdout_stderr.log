@@ -1,0 +1,26 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/alicia/rbrz_ws/install/smorphi_description/share/smorphi_description/urdf/smorphi.urdf
+-- Up-to-date symlink: /home/alicia/rbrz_ws/install/smorphi_description/share/smorphi_description/meshes/body.stl
+-- Up-to-date symlink: /home/alicia/rbrz_ws/install/smorphi_description/share/smorphi_description/meshes/wheel_fl.stl
+-- Up-to-date symlink: /home/alicia/rbrz_ws/install/smorphi_description/share/smorphi_description/meshes/wheel_fr.stl
+-- Up-to-date symlink: /home/alicia/rbrz_ws/install/smorphi_description/share/smorphi_description/meshes/wheel_rl.stl
+-- Up-to-date symlink: /home/alicia/rbrz_ws/install/smorphi_description/share/smorphi_description/meshes/wheel_rr.stl
+-- Up-to-date symlink: /home/alicia/rbrz_ws/install/smorphi_description/share/smorphi_description/launch/display.launch.py
+-- Up-to-date symlink: /home/alicia/rbrz_ws/install/smorphi_description/share/smorphi_description/launch/gazebo.launch.py
+-- Symlinking: /home/alicia/rbrz_ws/install/smorphi_description/share/smorphi_description/launch/spawn_line.launch.py
+-- Up-to-date symlink: /home/alicia/rbrz_ws/install/smorphi_description/share/ament_index/resource_index/package_run_dependencies/smorphi_description
+-- Up-to-date symlink: /home/alicia/rbrz_ws/install/smorphi_description/share/ament_index/resource_index/parent_prefix_path/smorphi_description
+-- Up-to-date symlink: /home/alicia/rbrz_ws/install/smorphi_description/share/smorphi_description/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/alicia/rbrz_ws/install/smorphi_description/share/smorphi_description/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/alicia/rbrz_ws/install/smorphi_description/share/smorphi_description/environment/path.sh
+-- Up-to-date symlink: /home/alicia/rbrz_ws/install/smorphi_description/share/smorphi_description/environment/path.dsv
+-- Up-to-date symlink: /home/alicia/rbrz_ws/install/smorphi_description/share/smorphi_description/local_setup.bash
+-- Up-to-date symlink: /home/alicia/rbrz_ws/install/smorphi_description/share/smorphi_description/local_setup.sh
+-- Up-to-date symlink: /home/alicia/rbrz_ws/install/smorphi_description/share/smorphi_description/local_setup.zsh
+-- Up-to-date symlink: /home/alicia/rbrz_ws/install/smorphi_description/share/smorphi_description/local_setup.dsv
+-- Symlinking: /home/alicia/rbrz_ws/install/smorphi_description/share/smorphi_description/package.dsv
+-- Up-to-date symlink: /home/alicia/rbrz_ws/install/smorphi_description/share/ament_index/resource_index/packages/smorphi_description
+-- Up-to-date symlink: /home/alicia/rbrz_ws/install/smorphi_description/share/smorphi_description/cmake/smorphi_descriptionConfig.cmake
+-- Up-to-date symlink: /home/alicia/rbrz_ws/install/smorphi_description/share/smorphi_description/cmake/smorphi_descriptionConfig-version.cmake
+-- Up-to-date symlink: /home/alicia/rbrz_ws/install/smorphi_description/share/smorphi_description/package.xml

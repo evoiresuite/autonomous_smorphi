@@ -1,0 +1,1 @@
+/home/alicia/rbrz_ws/build/smorphi_description/ament_cmake_environment_hooks/local_setup.sh

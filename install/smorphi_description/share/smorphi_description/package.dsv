@@ -1,0 +1,6 @@
+source;share/smorphi_description/hook/cmake_prefix_path.dsv
+source;share/smorphi_description/hook/cmake_prefix_path.sh
+source;share/smorphi_description/local_setup.bash
+source;share/smorphi_description/local_setup.dsv
+source;share/smorphi_description/local_setup.sh
+source;share/smorphi_description/local_setup.zsh

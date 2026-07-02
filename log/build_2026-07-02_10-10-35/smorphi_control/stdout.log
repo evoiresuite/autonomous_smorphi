@@ -1,0 +1,39 @@
+running develop
+Removing /home/alicia/rbrz_ws/install/smorphi_control/lib/python3.12/site-packages/smorphi-control.egg-link (link to .)
+running egg_info
+writing ../../build/smorphi_control/smorphi_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/smorphi_control/smorphi_control.egg-info/dependency_links.txt
+writing entry points to ../../build/smorphi_control/smorphi_control.egg-info/entry_points.txt
+writing requirements to ../../build/smorphi_control/smorphi_control.egg-info/requires.txt
+writing top-level names to ../../build/smorphi_control/smorphi_control.egg-info/top_level.txt
+reading manifest file '../../build/smorphi_control/smorphi_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/smorphi_control/smorphi_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/alicia/rbrz_ws/build/smorphi_control/build
+creating /home/alicia/rbrz_ws/build/smorphi_control/build/lib
+creating /home/alicia/rbrz_ws/build/smorphi_control/build/lib/smorphi_control
+copying smorphi_control/__init__.py -> /home/alicia/rbrz_ws/build/smorphi_control/build/lib/smorphi_control
+copying smorphi_control/line_following.py -> /home/alicia/rbrz_ws/build/smorphi_control/build/lib/smorphi_control
+copying smorphi_control/obstacle_avoidance.py -> /home/alicia/rbrz_ws/build/smorphi_control/build/lib/smorphi_control
+copying smorphi_control/decision_node.py -> /home/alicia/rbrz_ws/build/smorphi_control/build/lib/smorphi_control
+running install
+running install_lib
+creating /home/alicia/rbrz_ws/install/smorphi_control/lib/python3.12/site-packages/smorphi_control
+copying /home/alicia/rbrz_ws/build/smorphi_control/build/lib/smorphi_control/__init__.py -> /home/alicia/rbrz_ws/install/smorphi_control/lib/python3.12/site-packages/smorphi_control
+copying /home/alicia/rbrz_ws/build/smorphi_control/build/lib/smorphi_control/line_following.py -> /home/alicia/rbrz_ws/install/smorphi_control/lib/python3.12/site-packages/smorphi_control
+copying /home/alicia/rbrz_ws/build/smorphi_control/build/lib/smorphi_control/obstacle_avoidance.py -> /home/alicia/rbrz_ws/install/smorphi_control/lib/python3.12/site-packages/smorphi_control
+copying /home/alicia/rbrz_ws/build/smorphi_control/build/lib/smorphi_control/decision_node.py -> /home/alicia/rbrz_ws/install/smorphi_control/lib/python3.12/site-packages/smorphi_control
+byte-compiling /home/alicia/rbrz_ws/install/smorphi_control/lib/python3.12/site-packages/smorphi_control/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/alicia/rbrz_ws/install/smorphi_control/lib/python3.12/site-packages/smorphi_control/line_following.py to line_following.cpython-312.pyc
+byte-compiling /home/alicia/rbrz_ws/install/smorphi_control/lib/python3.12/site-packages/smorphi_control/obstacle_avoidance.py to obstacle_avoidance.cpython-312.pyc
+byte-compiling /home/alicia/rbrz_ws/install/smorphi_control/lib/python3.12/site-packages/smorphi_control/decision_node.py to decision_node.cpython-312.pyc
+running install_data
+copying resource/smorphi_control -> /home/alicia/rbrz_ws/install/smorphi_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/alicia/rbrz_ws/install/smorphi_control/share/smorphi_control
+running install_egg_info
+Copying ../../build/smorphi_control/smorphi_control.egg-info to /home/alicia/rbrz_ws/install/smorphi_control/lib/python3.12/site-packages/smorphi_control-0.0.0-py3.12.egg-info
+running install_scripts
+Installing line_following script to /home/alicia/rbrz_ws/install/smorphi_control/lib/smorphi_control
+Installing obstacle_avoidance script to /home/alicia/rbrz_ws/install/smorphi_control/lib/smorphi_control
+writing list of installed files to '/home/alicia/rbrz_ws/build/smorphi_control/install.log'

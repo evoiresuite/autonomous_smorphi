@@ -1,0 +1,23 @@
+[0.814s] Invoking command in '/home/alicia/rbrz_ws/src/smorphi_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/alicia/rbrz_ws/build/smorphi_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alicia/rbrz_ws/install/smorphi_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/smorphi_control build --build-base /home/alicia/rbrz_ws/build/smorphi_control/build install --record /home/alicia/rbrz_ws/build/smorphi_control/install.log --single-version-externally-managed install_data
+[1.058s] running egg_info
+[1.072s] writing ../../build/smorphi_control/smorphi_control.egg-info/PKG-INFO
+[1.072s] writing dependency_links to ../../build/smorphi_control/smorphi_control.egg-info/dependency_links.txt
+[1.073s] writing entry points to ../../build/smorphi_control/smorphi_control.egg-info/entry_points.txt
+[1.073s] writing requirements to ../../build/smorphi_control/smorphi_control.egg-info/requires.txt
+[1.073s] writing top-level names to ../../build/smorphi_control/smorphi_control.egg-info/top_level.txt
+[1.108s] reading manifest file '../../build/smorphi_control/smorphi_control.egg-info/SOURCES.txt'
+[1.109s] writing manifest file '../../build/smorphi_control/smorphi_control.egg-info/SOURCES.txt'
+[1.109s] running build
+[1.109s] running build_py
+[1.109s] running install
+[1.115s] running install_lib
+[1.130s] running install_data
+[1.130s] running install_egg_info
+[1.146s] removing '/home/alicia/rbrz_ws/install/smorphi_control/lib/python3.12/site-packages/smorphi_control-0.0.0-py3.12.egg-info' (and everything under it)
+[1.146s] Copying ../../build/smorphi_control/smorphi_control.egg-info to /home/alicia/rbrz_ws/install/smorphi_control/lib/python3.12/site-packages/smorphi_control-0.0.0-py3.12.egg-info
+[1.147s] running install_scripts
+[1.272s] Installing decision_node script to /home/alicia/rbrz_ws/install/smorphi_control/lib/smorphi_control
+[1.272s] Installing line_following script to /home/alicia/rbrz_ws/install/smorphi_control/lib/smorphi_control
+[1.272s] Installing obstacle_avoidance script to /home/alicia/rbrz_ws/install/smorphi_control/lib/smorphi_control
+[1.272s] writing list of installed files to '/home/alicia/rbrz_ws/build/smorphi_control/install.log'
+[1.306s] Invoked command in '/home/alicia/rbrz_ws/src/smorphi_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/alicia/rbrz_ws/build/smorphi_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alicia/rbrz_ws/install/smorphi_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/smorphi_control build --build-base /home/alicia/rbrz_ws/build/smorphi_control/build install --record /home/alicia/rbrz_ws/build/smorphi_control/install.log --single-version-externally-managed install_data

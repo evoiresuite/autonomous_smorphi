@@ -1,0 +1,4 @@
+[console_scripts]
+decision_node = smorphi_control.decision_node:main
+line_following = smorphi_control.line_following:main
+obstacle_avoidance = smorphi_control.obstacle_avoidance:main
